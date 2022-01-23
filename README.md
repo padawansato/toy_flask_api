@@ -15,12 +15,12 @@ $ curl -i http://0.0.0.0:3000/users/Us0ymuik | jq -R 'fromjson?'
 
 
 ## Example
-
+| | | | 
 | --- | --- | --- |
-|userId|     userCompany     |userDiscountRate|
-|Us0ymuik    |密林コンプライアンス印刷    |46|
-|Us77qmr2    |西日本密林エンターテイメント  |49|
-|...|...|...|
+|userId|userCompany|userDiscountRate|
+|Us0ymuik|密林コンプライアンス印刷|46|
+|Us77qmr2|西日本密林エンターテイメント|49|
+| ... | ... | ... |
 
 
 ```bash
