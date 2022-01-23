@@ -143,3 +143,4 @@ dmypy.json
 cython_debug/
 .python-version
 venv_py39
+.DS_Store
