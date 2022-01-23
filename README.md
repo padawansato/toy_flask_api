@@ -39,5 +39,5 @@ $ curl -i http://0.0.0.0:3000/users/Us0ymuik | jq  -R 'fromjson?'
 ```
 
 # 参考文献
-
-https://qiita.com/Morinikiz/items/c2af4ffa180856d1bf30
+- https://docs.microsoft.com/ja-jp/azure/architecture/best-practices/api-design
+- https://qiita.com/Morinikiz/items/c2af4ffa180856d1bf30
