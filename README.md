@@ -37,7 +37,22 @@ $ curl -i http://0.0.0.0:3000/users/Us0ymuik | jq  -R 'fromjson?'
   "result": true
 
 ```
+# ベストプラクティス
+## URIの基本的な設計
+良いURIの設計で重要な原則は、
+　*覚えやすく、どんな機能を持つURIなのかがひと目でわかる*
+ということ。
+
+## 一般的に良いとされるURIの重要な事項
+
+1. 短くて入力しやすい
+2. 人間が読んで理解できるURI
+3. 大文字小文字が混在していないURI
+4. サーバ側のアーキテクチャが反映されないURI
+5. ルールが統一されたURI
+6. バージョン番号が含まれたURI
 
 # 参考文献
 - https://docs.microsoft.com/ja-jp/azure/architecture/best-practices/api-design
 - https://qiita.com/Morinikiz/items/c2af4ffa180856d1bf30
+- https://qiita.com/NagaokaKenichi/items/6298eb8960570c7ad2e9
